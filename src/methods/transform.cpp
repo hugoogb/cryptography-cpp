@@ -1,21 +1,10 @@
-#include "../../include/methods/transform.h"
+#include <iostream>
+#include <string.h>
+#include <algorithm>
+
+using namespace std;
 
 // Function: reverse transform encrypt
-string reverse_encrypt(string plainText) {
-  string cipherText;
-
-  reverse(plainText.begin(), plainText.end());
-  cipherText = plainText;
-
-  return cipherText;
-}
-
+string reverse_encrypt(string plainText);
 // Function: reverse transform decrypt
-string reverse_decrypt(string cipherText) {
-  string plainText;
-
-  reverse(cipherText.begin(), cipherText.end());
-  plainText = cipherText;
-
-  return plainText;
-}
+string reverse_decrypt(string cipherText);
