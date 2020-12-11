@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 
-# set the project name, version and language
-project(cryptography-cpp DESCRIPTION "Encrypt and decrypt messages using c++" LANGUAGES CXX)
+# set the project name, version, description and language
+project(cryptography-cpp VERSION "0.0.1" DESCRIPTION "Encrypt and decrypt messages using c++" LANGUAGES CXX)
 
 # setting defaults
 set(CMAKE_CXX_STANDARD 17)
@@ -37,8 +37,7 @@ endif()
 # 3rdparty dependencies
 
 if(CRYPTOGRAPHY-CPP_TESTING AND CRYPTOGRAPHY-CPP_EMBEDDED_CATCH2)
-  find_package(Catch2 REQUIRED)
-  target_link_libraries(test Catch2::Catch2)
+  # Implement catch2
 endif()
 
 # ----------------------------------------------------------------------------

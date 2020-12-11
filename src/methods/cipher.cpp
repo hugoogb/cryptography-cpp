@@ -1,4 +1,4 @@
-#include "../../include/methods/cipher.h"
+#include "cipher.h"
 
 // Function: Caesar cipher encrypt
 string caesar_encrypt(string plainText, int key) {

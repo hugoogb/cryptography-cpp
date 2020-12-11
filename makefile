@@ -1,11 +1,11 @@
 CXX      := -g++
 CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror
 LDFLAGS  := -L/usr/lib -lstdc++ -lm
-BUILD    := ./build
+BUILD    := ./build_make
 OBJ_DIR  := $(BUILD)/objects
 APP_DIR  := $(BUILD)/apps
 TARGET   := program
-INCLUDE  := -Iinclude/
+INCLUDE  := -Isrc/
 SRC      :=                      \
    $(wildcard src/util/*.cpp) \
    $(wildcard src/methods/*.cpp) \

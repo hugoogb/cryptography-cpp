@@ -1,1 +1,1 @@
-#include "../../include/methods/alphabet.h"
+#include "alphabet.h"

@@ -1,1 +1,1 @@
-#include "../../include/methods/encoding.h"
+#include "encoding.h"
